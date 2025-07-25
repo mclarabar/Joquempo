@@ -14,16 +14,16 @@ do{
     if(resposta != 'parar'){
         let resultado = sortear();
         if(resposta == resultado){
-            alert('Jogador(a): '+ resposta +' X Computador: '+ resultado);;
-            alert('Deu empate, tente novamente!')
+            alert('Jogador(a): '+ resposta +' X Computador: '+ resultado);
+            alert('Deu empate, tente novamente!');
         }else if((resposta == 'pedra' && resultado == 'tesoura') || (resposta == 'tesoura' && resultado == 'papel') || (resposta == 'papel' && resultado == 'pedra')){
-            alert('Jogador(a): '+ resposta +' X Computador: '+ resultado);;
-            alert('Você ganhou, parabéns!!!')
+            alert('Jogador(a): '+ resposta +' X Computador: '+ resultado);
+            alert('Você ganhou, parabéns!!!');
         } else if((resultado == 'pedra' && resposta == 'tesoura') || (resultado == 'tesoura' && resposta == 'papel') || (resultado == 'papel' && resposta == 'pedra')){
-            alert('Jogador(a): '+ resposta +' X Computador: '+ resultado);;
-            alert('Você perdeu, tente novamente!')
+            alert('Jogador(a): '+ resposta +' X Computador: '+ resultado);
+            alert('Você perdeu, tente novamente!');
         } else{
-            alert('Digite corretamente!')
+            alert('Digite corretamente!');
         }
 
     }else{
